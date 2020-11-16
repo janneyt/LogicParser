@@ -4,6 +4,8 @@
 
 # TODO: Add a parsing module to pass the message to begin_parsing
 
+# TODO: Create all warnings/errors as a global object class using pythonic patterns.
+
 class LogicParser(object):
     '''
     This class contains the current truth values being evaluated as well as their eventual answer.

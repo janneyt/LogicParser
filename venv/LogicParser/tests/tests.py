@@ -19,6 +19,5 @@ class LogicParserExists(unittest.TestCase):
     def test_begin_parsing_wrong_characters(self):
         self.assertEquals(LogicParser.begin_parsing(self, 'TL -tt'),"The only valid truth table values are T and F. Please make sure to adhere to these guidelines.")
 
-
 if __name__ == '__main__':
     unittest.main()
